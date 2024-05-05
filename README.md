@@ -9,9 +9,6 @@ Welcome to Flowers for Someone! 🌼 This repository hosts the codebase for a ch
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
