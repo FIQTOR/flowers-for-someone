@@ -1,0 +1,81 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo de Tulipanes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ramo">
+        <div class="tulipan" data-frase="Ay, Giulio, ¿qué voy a hacer con vos?"></div>
+        <div class="tulipan" data-frase="Aunque estemos lejos, siempre estamos cerca en el corazón."></div>
+    </div>
+    <div id="frase" class="frase"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+Css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f4f6;
+}
+
+.ramo {
+    display: flex;
+    gap: 50px;
+}
+
+.tulipan {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6f61;
+    border-radius: 50%;
+    position: relative;
+    animation: mover 5s infinite alternate;
+    cursor: pointer;
+}
+
+.tulipan:hover {
+    background-color: #ff9a8b;
+}
+
+#frase {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: #333;
+    display: none;
+}
+
+@keyframes mover {
+    0% {
+        transform: rotate(0deg) translateY(0);
+    }
+    100% {
+        transform: rotate(360deg) translateY(-30px);
+    }
+}
+JavaScript 
+const tulipanes = document.querySelectorAll('.tulipan');
+const fraseDiv = document.getElementById('frase');
+
+tulipanes.forEach(tulipan => {
+    tulipan.addEventListener('mouseover', function() {
+        const frase = tulipan.getAttribute('data-frase');
+        fraseDiv.textContent = frase;
+        fraseDiv.style.display = 'block';
+    });
+
+    tulipan.addEventListener('mouseout', function() {
+        fraseDiv.style.display = 'none';
+    });
+});
