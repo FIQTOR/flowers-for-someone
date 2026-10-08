@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Kirim pesan / kustomisasi personal
+    url: https://github.com/FIQTOR/flowers-for-someone/discussions
+    about: Mau bikin versi untuk orang spesial, atau titip pesan? Tulis di Discussions ya — bukan di issue tracker.
+  - name: ❓ Tanya / bantuan
+    url: https://github.com/FIQTOR/flowers-for-someone/discussions/categories/q-a
+    about: Bingung cara jalanin atau kustomisasi? Tanya di Discussions.

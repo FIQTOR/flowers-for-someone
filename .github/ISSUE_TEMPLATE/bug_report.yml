@@ -1,0 +1,54 @@
+name: 🐛 Bug Report
+description: Laporkan bug pada animasi, layout, atau perilaku halaman.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih sudah melaporkan! 🙏
+        Issue tracker ini **hanya untuk bug & permintaan fitur**.
+        Untuk pesan personal / kustomisasi, silakan ke [Discussions](https://github.com/FIQTOR/flowers-for-someone/discussions).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Apa yang terjadi?
+      description: Jelaskan bug-nya dengan jelas.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Yang diharapkan
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah reproduksi
+      placeholder: |
+        1. Buka index.html
+        2. Klik tombol Open
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser & versi
+      placeholder: "Chrome 130, Firefox 132, Safari 18, ..."
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Perangkat / OS
+      placeholder: "Windows 11, Ubuntu 24.04, Android 15, iOS 18, ..."
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot / rekaman (opsional)
+    validations:
+      required: false

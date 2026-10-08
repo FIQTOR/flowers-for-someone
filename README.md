@@ -93,14 +93,30 @@ Want to make it yours? A few one-line tweaks:
 | Typing speed | `js/main.js` | the `setTimeout(..., 300)` delay |
 | Colors | `scss/style.scss` | recompile to `css/style.css` |
 
+## 💬 Have a message to send?
+
+This repo gets a lot of love letters 🙂 — and that's wonderful! To keep the issue tracker focused on bugs and features, **personal messages and customisation requests go to [Discussions](https://github.com/FIQTOR/flowers-for-someone/discussions)**.
+
+Issue tracker = 🐛 bugs & ✨ feature requests only.
+
 ## 🤝 Contributing
 
-Contributions, ideas and forks are welcome! Feel free to open an issue or submit a pull request.
+Contributions, ideas and forks are welcome! Please open an issue (bug/feature) or submit a pull request.
 
 1. Fork the project
 2. Create your branch (`git checkout -b feature/amazing-idea`)
 3. Commit your changes (`git commit -m 'feat: add amazing idea'`)
 4. Push and open a Pull Request
+
+## ☕ Support this project
+
+If this template helped you make someone smile, you can buy me a coffee — it keeps the flowers blooming 🌸
+
+<div align="center">
+
+<a href="https://www.buymeacoffee.com/fiqtor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" /></a>
+
+</div>
 
 ## 📄 License
 

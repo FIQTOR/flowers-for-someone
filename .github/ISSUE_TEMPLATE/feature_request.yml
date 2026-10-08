@@ -1,0 +1,28 @@
+name: ✨ Feature Request
+description: Usulkan perbaikan atau fitur baru untuk template ini.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Makasih idenya! 🙌 Untuk pesan personal / kustomisasi, tetap ke [Discussions](https://github.com/FIQTOR/flowers-for-someone/discussions) ya.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah / kebutuhan
+      description: Fitur ini menyelesaikan masalah apa?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solusi yang diusulkan
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatif lain (opsional)
+    validations:
+      required: false
