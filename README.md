@@ -67,8 +67,8 @@ Then open <http://localhost:8000> and click **Open**.
 
 ```
 flowers-for-someone/
-├── index.html            # landing page ("I Have Something")
-├── flower.html           # the animated bouquet + "I LOVE U"
+├── index.html            # landing page ("I Have Something for you elle!")
+├── flower.html           # the animated bouquet + "flowers for my one and only honey! love u"
 ├── css/
 │   ├── index.css         # landing page styles
 │   └── style.css         # flower animation styles
@@ -88,8 +88,8 @@ Want to make it yours? A few one-line tweaks:
 
 | What | Where | Change |
 | :--- | :--- | :--- |
-| The message | `js/main.js` | `('I LOVE U')` → your own text |
-| The intro line | `js/index.js` | `I Have Something` → your own text |
+| The message | `js/main.js` | `('flowers for my one and only honey')` → your own text |
+| The intro line | `js/index.js` | `I Have Something for you elle` → your own text |
 | Typing speed | `js/main.js` | the `setTimeout(..., 300)` delay |
 | Colors | `scss/style.scss` | recompile to `css/style.css` |
 
